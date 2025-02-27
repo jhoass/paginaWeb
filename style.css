@@ -60,6 +60,28 @@ header{
     
 }
 
+
+#pesquisas {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    max-width: 100%; 
+    border: 2px solid #ddd;
+    border-radius: 20px; 
+    outline: none; 
+    transition: all 0.3s ease; 
+}
+
+#pesquisas:focus {
+    border-color: #007bff; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+
+#pesquisas::placeholder {
+    color: #999; 
+    font-style: italic;
+}
+
 footer{
     display: block;
     text-align: center;
